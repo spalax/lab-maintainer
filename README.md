@@ -24,4 +24,4 @@ Run Lab-Maintainer
 
 $ node index.js
 
-Then type in your browser http://localhost:8080
+Type in your browser http://localhost:8080
