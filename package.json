@@ -16,7 +16,6 @@
   ],
   "dependencies" : {
     "pintura":  "git://github.com/Spalax/pintura.git",
-    "ejs": "0.8.x",
     "mongodb": "1.x",
     "perstore": ">=0.3.0",
     "bson": "0.x"
