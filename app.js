@@ -1,13 +1,9 @@
-var Model   = require('perstore/model').Model,
-    MongoDB = require('mongodb');
+var Model   = require('perstore/model').Model;
 
-require("./media/html");
-//require("pintura/media/json");
-var database = new MongoDB.Db('test', new MongoDB.Server('localhost', 27017), {safe: false});
-
+require("pintura/media/json");
 var fullModel = {
      page: require("./model/page").Page,
-     product: require("./model/product").Product(database)
+     product: require("./model/product").Product
 };
 
 //initialize the data model

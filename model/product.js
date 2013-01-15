@@ -1,6 +1,4 @@
-exports.Product = function (database) {
-        return require("perstore/model")(require("perstore/store/mongodb").MongoDB({collection: "product",
-                                                                                    database: database}), {
+exports.Product = require("perstore/model")(require("perstore/store/mongodb").MongoDB({collection: "product"}), {
             properties: {
                 key: String,
                 name: String
@@ -15,5 +13,4 @@ exports.Product = function (database) {
                     return this.name;
                 }
             }
-    });
-}
+});

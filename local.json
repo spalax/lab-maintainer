@@ -1,6 +1,6 @@
 {
     "//": "For production, you would normally want the number of processes to match the number of cores, but for debugging, using 1 is much easier:",
-    "processes": 1,
+    "processes": 4,
     "//": "This is the HTTP port to listen on:",
     "port": 8080,
     "//": "Indicates whether the console should run",
@@ -9,15 +9,7 @@
     "replPort": 5555,
     "//": "Database settings",
     "database": {
-        "type": "mysql",
-        "host": "localhost",
-        "username": "root",
-        "password": "visonic",
-        "name": "test"
-    },
-    "mail": {
-        "host":"mail.site.com",
-        "defaultFrom": "app@site.com"
+       "url": "mongodb://localhost/test"
     },
     "security":{
         "//": "Bypass security for initial setup",
