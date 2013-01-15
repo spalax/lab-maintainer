@@ -10,9 +10,13 @@ Setup Lab-Maintainer
 =================
 
 $ git clone https://github.com/Spalax/lab-maintainer.git lab-maintainer
+
 $ cd lab-maintainer
+
 $ npm install
+
 $ git submodules init
+
 $ git submodule update
 
 Run Lab-Maintainer
