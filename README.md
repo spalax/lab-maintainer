@@ -8,7 +8,8 @@ JSGI compliant JavaScript platform, but is tested on NodeJS.
 
 Pre setup requirements:
 =======================
-You should have installed mongodb.[installation instructions](http://docs.mongodb.org/manual/installation/)
+You should have installed mongodb.
+[installation instructions](http://docs.mongodb.org/manual/installation/)
 
 
 Setup Lab-Maintainer
