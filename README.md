@@ -6,6 +6,11 @@ to the Power Max systems. Lab-Maintainer consists of reusable
 [Perstore](http://github.com/persvr/perstore) it can be used on any 
 JSGI compliant JavaScript platform, but is tested on NodeJS.
 
+Pre setup requirements:
+=======================
+You should have installed mongodb.[installation instructions](http://docs.mongodb.org/manual/installation/)
+
+
 Setup Lab-Maintainer
 =================
 
